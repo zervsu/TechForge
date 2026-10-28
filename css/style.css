@@ -62,7 +62,7 @@ ul.menu-list li a:hover {
   align-items: center;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /* position: absolute; */
   padding-top: 130px;
 }
 .banner-inicio {
@@ -97,6 +97,7 @@ ul.menu-list li a:hover {
   color: #1a1a1a;
   flex-direction: column;
   padding-top: 150px;
+  position: relative;
 }
 .card-sobre {
   width: 300px;
@@ -141,12 +142,6 @@ ul.menu-list li a:hover {
   height: 100px;
   background-color: #fff;
   font-size: 20px;
-}
-.card-edmar {
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .card-victor {
   width: 400px;
